@@ -7,6 +7,6 @@ import java.io.PrintWriter;
 public class main extends HttpServlet {
    public void service(HttpServletRequest request, HttpServletResponse response) throws IOException {
        PrintWriter pw=response.getWriter();
-       pw.println("hello");
+       pw.println("hi");
    }
 }
